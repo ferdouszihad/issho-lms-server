@@ -1,0 +1,66 @@
+{
+  "status": 200,
+  "projectInfo": {
+    "name": "TalentForge",
+    "description": "An LMS application focused on training for companies' internal employees to enhance their skills and career growth.",
+    "version": "1.0.0",
+    "authors": [
+      {
+        "name": "Zihad",
+        "email": "f.zihad333@gmail.com",
+        "contributions": ["Team-Lead", "System Design"]
+      },
+      {
+        "name": "Khairul",
+        "email": "",
+        "contributions": ["Front-End Development"]
+      },
+      {
+        "name": "Sohan",
+        "email": "",
+        "contributions": ["Front-End development"]
+      },
+      {
+        "name": "Wahab",
+        "email": "",
+        "contributions": ["Dev-Ops"]
+      },
+      {
+        "name": "Abir",
+        "email": "",
+        "contributions": ["Back-End Development"]
+      }
+    ],
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/ferdouszihad/issho-lms-server"
+    },
+    "license": "MIT",
+    "dependencies": {
+      "bcrypt": "^5.1.1",
+      "chalk": "^4.1.2",
+      "cors": "^2.8.5",
+      "dotenv": "^16.4.5",
+      "express": "^4.19.2",
+      "joi": "^17.13.3",
+      "jsonwebtoken": "^8.5.1",
+      "lodash": "^4.17.21",
+      "mongodb": "^6.8.0",
+      "mongoose": "^6.13.0",
+      "morgan": "^1.10.0",
+      "nodemon": "^2.0.22",
+      "stripe": "^10.14.0"
+    },
+    "scripts": {
+      "start": "node app.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+      "LMS",
+      "learning management system",
+      "employee training",
+      "corporate training",
+      "skills development"
+    ]
+  }
+}
