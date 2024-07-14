@@ -71,7 +71,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Scripts
 
-- **start**: `node app.js`
+- **start**: `nodemon server.js`
 - **test**: `echo "Error: no test specified" && exit 1`
 
 ## Keywords
